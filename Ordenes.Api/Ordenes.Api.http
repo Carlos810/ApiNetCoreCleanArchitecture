@@ -1,0 +1,11 @@
+# @Ordenes.Api_HostAddress = http://localhost:5091
+
+# GET {{Ordenes.Api_HostAddress}}/weatherforecast/
+# Accept: application/json
+
+###
+
+@Ordenes.Api_HostAddress = http://localhost:5091
+
+GET {{Ordenes.Api_HostAddress}}/api/pedidos
+Accept: application/json
